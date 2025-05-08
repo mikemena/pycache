@@ -11,7 +11,7 @@ class BrowserCacheViewer:
         self.home = Path.home()
         self.browsers_analyzed = []
         self.errors = []
-        self.sample_size = 20  # Limit to 20 entries by default
+        self.sample_size = 50  # Limit to 20 entries by default
 
     def format_timestamp(self, timestamp, browser_type='chrome'):
         """Format timestamp based on browser type"""
